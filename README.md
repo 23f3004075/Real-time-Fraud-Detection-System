@@ -24,7 +24,7 @@ Key Features
 -   **Live Telemetry Dashboard:** Asynchronously logs all transaction evaluations to a PostgreSQL database, powering an interactive Streamlit frontend for risk analysts to monitor fraud rates and prevented losses in real time.
 
 ## Fraud-Detection Lifecycle:
-![Fraud-Detection Lifecycle](Fraud%20Detection%20Lifecycle.png)
+<img src="Fraud Detection Lifecycle.png" alt="Fraud-Detection Lifecycle" width="550"/>
 
 
 System Architecture
