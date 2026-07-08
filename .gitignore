@@ -1,0 +1,62 @@
+# ==========================================
+# 1. Environment & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+*.env
+.streamlit/secrets.toml
+
+# ==========================================
+# 2. Python & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# 3. Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# 4. Jupyter Notebook Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# 5. Machine Learning & Large Data Files
+# ==========================================
+# Uncomment the lines below if your data or models exceed GitHub's 100MB limit
+# *.csv
+# *.parquet
+# *.dat
+# *.h5
+# *.pkl
+# ../model/*.pkl
+
+# ==========================================
+# 6. IDEs & OS Metadata
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 7. Logs & Databases
+# ==========================================
+*.log
+*.sql
+*.sqlite
+*.dbdataset/
+*.csv
