@@ -34,13 +34,12 @@ venv.bak/
 # ==========================================
 # 5. Machine Learning & Large Data Files
 # ==========================================
-
- *.csv
-# *.parquet
-# *.dat
-# *.h5
- *.pkl
- ../model/*.pkl
+*.csv
+*.parquet
+*.dat
+*.h5
+*.pkl
+model/*.pkl
 
 # ==========================================
 # 6. IDEs & OS Metadata
